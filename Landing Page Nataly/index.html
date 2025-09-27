@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Natalia Romanenko — Business Coach</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">Natalia Romanenko</div>
+        <nav class="nav">
+          <a class="nav-link" href="#benefits">What you'll get</a>
+          <a class="nav-link" href="#services">Services</a>
+          <a class="nav-link" href="#results">Results</a>
+          <a class="nav-link" href="#reviews">Reviews</a>
+          <a class="btn btn--primary" href="#contact">Get in touch</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ===== Hero ===== -->
+      <section id="top" class="hero">
+        <div class="container hero-grid">
+          <figure class="hero-media">
+            <img
+              src="pic/example1.png"
+              alt="Natalia Romanenko"
+              class="hero-img"
+            />
+          </figure>
+
+          <div class="hero-card">
+            <h1 class="hero-title">Natalia Romanenko</h1>
+            <p class="hero-sub">Business coach</p>
+            <p class="hero-text">
+              Helping early-stage entrepreneurs grow faster and smarter with
+              clarity and systems.
+            </p>
+            <a href="#contact" class="btn btn--primary">Book a free call</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== What you'll get (vertical list) ===== -->
+      <section id="benefits" class="section benefits">
+        <div class="container">
+          <h2 class="section-title">What you'll get</h2>
+          <p class="section-sub">
+            Clear plan, measurable growth, and support every step.
+          </p>
+
+          <ul class="benefits-list">
+            <li class="benefit">
+              <div class="benefit-icon" aria-hidden="true">🎯</div>
+              <div class="benefit-body">
+                <h3 class="benefit-title">Clarity &amp; focus</h3>
+                <p class="benefit-brief">
+                  Define your growth priorities and stop spreading yourself
+                  thin.
+                </p>
+                <div class="benefit-more">
+                  A 90-day roadmap broken into weekly outcomes. You always know
+                  what to do next.
+                </div>
+              </div>
+            </li>
+
+            <li class="benefit">
+              <div class="benefit-icon" aria-hidden="true">⚙️</div>
+              <div class="benefit-body">
+                <h3 class="benefit-title">Simple systems</h3>
+                <p class="benefit-brief">
+                  Processes for sales, client delivery, and weekly planning.
+                </p>
+                <div class="benefit-more">
+                  Lightweight checklists and templates so work scales without
+                  chaos or burnout.
+                </div>
+              </div>
+            </li>
+
+            <li class="benefit">
+              <div class="benefit-icon" aria-hidden="true">📈</div>
+              <div class="benefit-body">
+                <h3 class="benefit-title">Accountability</h3>
+                <p class="benefit-brief">
+                  Consistent check-ins to keep momentum and remove blockers.
+                </p>
+                <div class="benefit-more">
+                  Short weekly reviews and adjustments to keep you shipping and
+                  improving.
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ===== Services ===== -->
+      <section id="services" class="section services">
+        <div class="container">
+          <h2 class="section-title">Services</h2>
+
+          <div class="cards-3">
+            <article class="card">
+              <h3 class="card-title">Starter Audit</h3>
+              <p class="card-text">90-min session + action plan PDF.</p>
+              <a href="#contact" class="btn btn--primary-outline">Request</a>
+            </article>
+
+            <article class="card">
+              <h3 class="card-title">Monthly Coaching</h3>
+              <p class="card-text">Weekly calls + templates + feedback.</p>
+              <a href="#contact" class="btn btn--primary-outline">Apply</a>
+            </article>
+
+            <article class="card">
+              <h3 class="card-title">4-week Sprint</h3>
+              <p class="card-text">
+                Focus on one outcome: e.g., lead pipeline or onboarding flow.
+              </p>
+              <a href="#contact" class="btn btn--primary-outline">Discuss</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Results ===== -->
+      <section id="results" class="section results">
+        <div class="container">
+          <h2 class="section-title">Results</h2>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-num">+42%</div>
+              <div class="stat-sub">avg. growth in 90 days</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">3× faster</div>
+              <div class="stat-sub">lead response time</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">–50%</div>
+              <div class="stat-sub">time in operations</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Client stories (carousel 1-by-1) ===== -->
+      <section id="reviews" class="section reviews">
+        <div class="container">
+          <h2 class="section-title">Client stories</h2>
+
+          <blockquote class="quote" id="quote">
+            <p class="quote-text">
+              “We cut meeting time in half and tripled lead response speed in 6
+              weeks.”
+            </p>
+            <footer class="quote-cap">— Sergey M.</footer>
+          </blockquote>
+        </div>
+      </section>
+
+      <!-- ===== Contact ===== -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h2 class="section-title">Get in touch</h2>
+
+          <form class="contact-form" action="#">
+            <input type="text" placeholder="Name" name="name" />
+            <input type="email" placeholder="Email" name="email" />
+            <textarea rows="6" placeholder="Message" name="message"></textarea>
+            <button type="submit" class="btn btn--primary is-centered">
+              Send
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <small>© 2025 Natalia Romanenko. All rights reserved.</small>
+        <a class="top-link" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
